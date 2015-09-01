@@ -1,0 +1,25 @@
+node
+{
+	fill-color : white;
+	size-mode : fit;
+}
+
+node.cdiamond
+{ 
+	fill-color : black;
+	size-mode : normal;
+	text-alignment: above;
+	shape : diamond;
+}
+
+edge
+{
+	size-mode : dyn-size;
+	text-alignment : along;
+	text-offset : 0,7;
+}
+
+edge.reverse
+{
+	text-offset: 0,-7;
+}
